@@ -1,0 +1,11 @@
+.footer-container {
+    @apply h-72 flex flex-col
+}
+
+.top-div {
+    @apply h-72 bg-[#4b4949]
+}
+
+.bottom-div {
+    @apply bg-[#000000] h-16 text-[#fff] text-sm
+}
