@@ -11,13 +11,18 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Navbar />
-      <Slider />
-      <CategorySlider />
-      <NewArrival />
-      <BestDeal />
-      <Footer />
+      <div className='fixed z-[10] top-0'>
+        <Header />
+        <Navbar />
+      </div>
+      <div className='mt-[4.5rem]'>
+        <Slider />
+        <CategorySlider />
+        <NewArrival />
+        <BestDeal />
+        <Footer />
+      </div>
+
     </div>
   );
 }

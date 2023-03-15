@@ -8,20 +8,20 @@ body {
 .header-container {
   background: #03484D;
   height: 4.5rem;
-
-  @apply grid grid-cols-12 p-2 text-white
+  width: 100vw;
+  @apply grid grid-cols-12 p-2 text-white fixed z-[10]
 }
 
 .left-group {
-@apply col-span-7 grid grid-cols-12
+  @apply col-span-7 grid grid-cols-12
 }
 
 .right-group {
-  @apply col-start-10 col-span-3 grid grid-cols-12 text-right  
+  @apply col-start-10 col-span-3 grid grid-cols-12 text-right
 }
 
 .logo-container {
- @apply col-span-2
+  @apply col-span-2
 }
 
 .logo {
@@ -64,17 +64,17 @@ body {
 }
 
 .contact-container {
-  @apply flex gap-2 items-center 
+  @apply flex gap-2 items-center
 }
-.user-div{
-  @apply
-  col-span-2  my-auto
+
+.user-div {
+  @apply col-span-2 my-auto
 }
-.fav-div{
-  @apply
-  col-span-2 my-auto
+
+.fav-div {
+  @apply col-span-2 my-auto
 }
-.cart-div{
-  @apply
-  col-span-2 my-auto
+
+.cart-div {
+  @apply col-span-2 my-auto
 }

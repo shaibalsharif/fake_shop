@@ -8,7 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 // 
 const Navbar = () => {
   return (
-    <div className='bg-[#0f3538] h-10 px-12 text-[#fff] items-center justify-center flex  shadow-lg'>
+    <div className=' bg-[#0f3538] h-10 px-12 text-[#fff] items-center justify-center flex  shadow-lg'>
      
       <div className='nav flex gap-8 text-sm items-center w-[60%]'>
         <div className='flex gap-2 items-center'>
