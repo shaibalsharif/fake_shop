@@ -11,11 +11,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <div className='fixed z-[10] top-0'>
+      <div className='fixed z-[10] top-0' style={{ position: 'fixed', 'z-index': 10, top: '0px' }}>
         <Header />
         <Navbar />
       </div>
-      <div className='mt-[4.5rem]'>
+      <div style={{ 'margin-top': '4.5rem'}}>
         <Slider />
         <CategorySlider />
         <NewArrival />
