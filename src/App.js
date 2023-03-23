@@ -18,6 +18,7 @@ function App() {
       <div style={{ 'margin-top': '4.5rem'}}>
         <Slider />
         <CategorySlider />
+        <hr className='w-[80%] mx-auto'/>
         <NewArrival />
         <BestDeal />
         <Footer />
